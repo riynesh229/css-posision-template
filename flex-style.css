@@ -1,0 +1,361 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+}
+.parent{
+    color: white;
+}
+.top{
+    background-color: white;
+    color: black;
+}
+.box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 25px 0 25px 0;
+}
+.left{
+    width: 30%;
+    font-size: 30px;
+    font-weight: 800;
+    text-shadow: 10px 10px 20px #2c2c2c;
+}
+.left p{
+    margin: 0px;
+    font-size: 16px;
+}
+strong{
+    color: coral;
+    font-size: 35px;
+}
+.right{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px;
+}
+.right div:hover{
+    background-color:coral;
+    border-radius: 20px;
+    padding: 10px;
+}
+.picture{
+    height: 66vh;
+    background-color: rgb(41, 40, 40);
+    padding-top: 25px;
+}
+.box1{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.pic1{
+    width: 30%;
+    position: absolute;
+}
+.pic1:hover{
+    z-index: 1;
+}
+.pic1 img{
+    width: 100%;
+    height: 250px;
+}
+.pic2{
+    width: 30%;
+    position: absolute;
+    left: 15%;
+}
+.pic2 img{
+    width: 100%;
+    height: 250px;
+}
+.pic2:hover{
+    z-index: 1;
+}
+.pic3{
+    width: 30%;
+    position: absolute;
+    left: 30%;
+}
+.pic3 img{
+    width: 100%;
+    height: 250px;
+}
+.pic3:hover{
+    z-index: 1;
+}
+.pic4{
+    width: 30%;
+    position: absolute;
+    left: 45%;
+}
+.pic4 img{
+    width: 100%;
+    height: 250px;
+}
+.pic4:hover{
+    z-index: 1;
+}
+.pic5{
+    width: 30%;
+    position: absolute;
+    left: 60%;
+}
+.pic5 img{
+    width: 100%;
+    height: 250px;
+}
+.content{
+    display: flex;
+    padding-top: 280px;
+}
+.leftcontent{
+    width: 25%;
+    font-size: 60px;
+    padding-bottom: 10px;
+    text-shadow: 10px 10px 20px #9e9696;
+}
+.leftcontent strong{
+    font-size: 60px;
+}
+.rightcontent{
+    width: 75%;
+    border-left: solid whitesmoke 3px;
+    padding: 10px 0 0 15px;    
+}
+.images{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.img1,.img2,.img3,.img4{
+    width: 20%;
+    text-align: center;
+}
+.img1 img,.img2 img,.img3 img,.img4 img{
+    width: 100%;
+}
+.dark{
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.color{
+    background-color: coral;
+    padding: 10px;
+    width: 100px;
+    margin: auto;
+}
+.img1 p,.img2 p,.img3 p,.img4 p{
+    margin-bottom: 20px;
+}
+.container2{
+    background-color: rgb(41, 40, 40);
+    margin-top: 40px;
+}
+.photo{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    padding-bottom: 30px;
+}
+.leftphoto{
+    width: 50%;
+    margin-right: 10px;
+}
+.flex{
+    display: flex;
+}
+.rightphoto{
+    width: 50%;
+    margin-left: 10px;
+}
+.img10{
+    width: 50%;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.photocontent1{
+    width: 50%;
+    margin-left: 10px;
+    font-size: 17px;
+}
+.img10 img{
+    width: 100%;
+    height: 300px;
+}
+
+hr{
+    margin: 15px 0 15px 0;
+}
+.imglist{
+    display: flex;
+    font-size: 17px;
+    color: coral;
+}
+.list1,.list2{
+    width: 50%;
+}
+.list1 div::before{
+    content: "-";
+}
+.list2 div::before{
+    content: "-";
+}
+.photocontainer1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.img11,.img12,.img13,.img14,.img15,.img16,.img17,.img18{
+    width: 20%;
+}
+.img11 img,.img12 img,.img13 img,.img14 img,.img15 img,.img16 img,.img17  img,.img18 img{
+    width: 100%;
+    height: 130px;
+}
+
+.photocontainer2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.last{
+    background-color: white;
+    color: black;
+}
+.boxed{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.last1{
+    width: 50%;
+    padding-top: 35px;
+}
+.last2{
+    width: 50%;
+    padding-left: 420px;
+}
+.last2 img{
+    width: 100%;
+}
+@media(max-width:576px){
+    .box,.images,.photo,.flex{
+        display: block;
+    }
+    .right{
+        width: 100%;
+        margin: 0;
+    }
+    .pic1{
+        margin-left: 20%;
+        width: 60%;
+        margin-top: 30px;
+    }
+    .pic2{
+        margin-left: 20%;
+        width: 60%;
+        left: 0;
+        margin-top: 110px; 
+    }
+    .pic3{
+        margin-left: 20%;
+        left: 0;
+        width: 60%;
+        margin-top: 190px;
+        z-index: 2;
+    }
+    .pic4{
+        margin-left: 20%;
+        left: 0;
+        width: 60%;
+        margin-top: 270px;
+        z-index: 2;
+    }
+    .pic5{
+        margin-left: 20%;
+        left: 0;
+        width: 60%;
+        margin-top: 350px;
+        z-index: 2;
+    }
+    .picture img{
+        width: 100%;
+        top: 500px;
+    }
+    .rightphoto{
+        margin: 0;
+        width: 100%;
+    }
+    .photocontainer1{
+        display: block;
+        width: 50%;
+        margin: 0;
+    }
+    .photocontainer2{
+        display: block;
+        width: 50%;
+        margin: 0 0 0 20px;
+    }
+    .phone{
+        display: flex;
+        width: 100%;
+    }
+    .leftcontent,.img11,.img12,.img13,.img14,.img15,.img16,.img17,.img18,.img1,.img2,.img3,.img4,.img10,.leftphoto,.photocontent1,.left,.last1{
+        width: 100%;
+    }
+    .boxed{
+        display: block;
+        text-align: center;
+    }
+    .last2{
+        width: 100%;
+        padding: 0;
+    }
+    .last2 img{
+        width: 50%;
+    }
+    .content{
+        display: block;
+        text-align: center;
+    }
+    .rightcontent{
+        width: 100%;
+        border: 0;
+    }
+    .right{
+        margin-top: 30px;
+    }
+    .picture{
+        height: 130vh;
+    }
+    .content{
+        padding-top: 620px;
+    }
+    .color{
+        margin-bottom: 40px;
+    }
+    .pic1:hover{
+        z-index: 3;
+    }
+    .pic2:hover{
+        z-index: 4;
+    }
+    .pic3:hover{
+        z-index: 3;
+    }
+    .pic4:hover{
+        z-index: 4;
+    }
+}
